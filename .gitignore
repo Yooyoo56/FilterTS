@@ -1,0 +1,30 @@
+# Node.js dependencies
+/node_modules/
+
+# TypeScript build output
+/dist/
+/build/
+
+# Log files
+*.log
+
+# IDE/editor configuration files (Example: Visual Studio Code)
+.vscode/
+/.idea/
+
+/# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Yarn lock file and logs
+yarn-debug.log*
+yarn-error.log*
+
+# NPM logs
+npm-debug.log*
+
+# Optional, include files that shouldn't be committed (ex: compiled .js files from TS, etc.)
+*.js
