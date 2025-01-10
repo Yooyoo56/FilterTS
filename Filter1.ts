@@ -74,7 +74,7 @@ class FilterBuilder<T> {
 	}
 
 	// Methode that it will combine all filters
-	// It filter does not exist: send a warn message
+	// If filter does not exist: send a warn message
 	// If there's a filter, use 'every' to verify all filter. If filter exists, return true otherwise false.
 	build(): Filter<T> {
 		return (item: T) => {
